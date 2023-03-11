@@ -1,19 +1,12 @@
 
 
-@media (min-width: 375px) {
-    
-}
-
-@media (min-width: 1440px) {
-    
-}
 
 
 :root {
     --color-Orange: hsl(25, 97%, 53%);
     --color-White: hsl(0, 0%, 100%);
     --color-LightGrey: hsl(217, 12%, 63%);
-    --color-MediumGrey: hsl(216, 12%, 54%);
+    --color-MediumGrey: hsl(213, 8%, 21%);
     --color-DarkBlue: hsl(213, 19%, 18%);
     --color-VeryDarkBlue: hsl(216, 12%, 8%);
 }
@@ -49,7 +42,7 @@ body {
 }
 #rate-state span {
     align-items: center;
-    background-color: var(--color-DarkBlue);
+    background-color: var(--color-MediumGrey);
     border-radius: 50%;
     color: var(--color-White);
     display: flex;
@@ -103,10 +96,10 @@ div.numbers {
     justify-content: center;
 }
 #thank-you-state div {
-    background-color: var(--color-DarkBlue);
+    background-color: var(--color-MediumGrey);
     border-radius: 25px;
     color: var(--color-Orange);
-    font-weight: 700;
+    font-weight: 00;
     margin: 15px 0px;
     padding: 5px 25px;
 }
@@ -123,3 +116,16 @@ div.numbers {
     position: absolute;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media (min-width: 375px) {
+    .container {
+        width: 22em;
+        height: 27em;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+}
